@@ -133,6 +133,34 @@
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   }
 
+  /*Education Section*/
+  .education-items {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+
+  .education-date {
+    color: #212529;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+  }
+
+  .education-item h3 {
+    color: #fd8525;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+  }
+
+  .education-item p {
+    color: #6c757d;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
   /* Workshops & Certificates Section */
 
 .workshops-items {

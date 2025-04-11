@@ -195,6 +195,61 @@
   .skill-card ul {
     padding-left: 20px;
   }
+
+  /*Projects*/
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 30px;
+  }
+
+  .project-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s;
+  }
+
+  .project-card:hover {
+    transform: translateY(-10px);
+  }
+
+  .project-image {
+    height: 200px;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .project-content {
+    padding: 25px;
+  }
+
+  .project-content h3 {
+    color: #fd8525;
+    margin-bottom: 15px;
+  }
+
+  .project-content p {
+    color: #6c757d;
+    margin-bottom: 20px;
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .tag {
+    background-color: #fd8525;
+    color: #f8f9fa;
+    padding: 5px 15px;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
   /* Workshops & Certificates Section */
 
 .workshops-items {

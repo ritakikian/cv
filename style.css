@@ -1,0 +1,286 @@
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #212529;
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fd8525;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin-left: 30px;
+  }
+  
+  .nav-links a {
+    color: #212529;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #fd8525;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(135deg, #d6c09d, #fd8525);
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: white;
+    color: #fd8525;
+    padding: 12px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s;
+  }
+  
+  .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  /* Sections */
+  section {
+    padding: 80px 0;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .section-title h2 {
+    font-size: 2rem;
+    color: #fd8525;
+    margin-bottom: 15px;
+  }
+  
+  .section-title p {
+    color: #6c757d;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  /* About */
+  .about-content {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .about-text {
+    flex: 1;
+  }
+  
+  .about-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+
+  /* Workshops & Certificates Section */
+
+.workshops-items {
+    margin-top: 30px;
+  }
+  
+  .workshop-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  
+  .workshop-date {
+    color: #212529;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+  }
+  
+  .workshop-item h3 {
+    color: #fd8525;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+  }
+  
+  .workshop-item p {
+    color: #6c757d;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+/* Work Experience Section */  
+  
+.experience-items {
+    margin-top: 30px;
+  }
+  
+  .experience-item {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  
+  .experience-date {
+    color: #212529;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+  }
+  
+  .experience-item h3 {
+    color: #fd8525;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+  }
+  
+  .experience-item p {
+    color: #6c757d;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Languages Section */
+#languages {
+    margin-bottom: 80px;
+  }
+  
+  #languages .section-title h2 {
+    font-size: 2rem;
+    color: #fd8525;
+    margin-bottom: 15px;
+  }
+  
+  #languages .section-title p {
+    color: #6c757d;
+    max-width: 700px;
+    margin: 0 auto 30px;
+    font-size: 1.1rem;
+  }
+  
+  .languages-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .language-item {
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    border-radius: 8px;
+    padding: 15px 20px;
+    flex: 1 1 200px;
+    font-size: 1rem;
+    text-align: center;
+    color: #212529;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #f8f9fa;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+  }
+  
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .nav-container {
+      flex-direction: column;
+    }
+    
+    .nav-links {
+      margin-top: 20px;
+    }
+    
+    .nav-links li {
+      margin: 0 15px;
+    }
+    
+    .about-content {
+      flex-direction: column;
+    }
+    
+    .timeline::after {
+      left: 31px;
+    }
+    
+    .timeline-item {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 0;
+    }
+    
+    .timeline-item::after {
+      left: 21px;
+    }
+    
+    .left, .right {
+      left: 0;
+      text-align: left;
+    }
+    
+    .skills-grid {
+      grid-template-columns: 1fr;
+    }
+  }
